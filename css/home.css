@@ -378,12 +378,6 @@ header {
   margin-right: 0.5rem;
 }
 
-.instagram-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-
 .footer-bar {
   padding: 2rem 1rem;
   display: grid;
@@ -442,11 +436,7 @@ header {
   .brands-container {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .instagram-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
+  
   .footer-bar {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -527,4 +517,16 @@ header {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.modal-title-confirm {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-img-buy {
+  display: block;
+  width: 80%;
+  padding-left: 100px;
 }
