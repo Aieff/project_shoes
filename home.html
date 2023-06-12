@@ -70,27 +70,22 @@
     </nav>
 
     <header>
-      <div class="section-container header-container">
-        <div class="header-content">
-          <p>55% DE DESCONTO EXTRA NA PROMOÇÃO DE PRIMAVERA</p>
-          <h1>Descubra e compre <br>A Tendência 2023</h1>
-          <button class="btn">COMPRE AGORA</button>
-        </div>
-        <div class="header-image">
-          <img src="assets/header.png" alt="header">
-        </div>
-      </div>
-    </header>
+      <section class="slider">
+        <div class="seta arrow-left"><i class="ri-arrow-left-line"></i></div>
+          <img src="assets/slideshow-banner-1.jpg" alt="slide-1.jpg">
+          <img src="assets/slideshow-banner-2.jpg" alt="slide-2.jpg">
+        <div class="seta arrow-right"><i class="ri-arrow-right-line"></i></div>
+        <div class="paginacao">
+      
+          <div class="botao"> <i class="ri-checkbox-blank-circle-fill"></i> </div>
+          <div class="botao"> <i class="ri-checkbox-blank-circle-fill"></i> </div>
+          <div class="botao"> <i class="ri-checkbox-blank-circle-fill"></i> </div>
+          <div class="botao"> <i class="ri-checkbox-blank-circle-fill"></i> </div>
 
-    <section class="section-container collection-container">
-      <img src="assets/collection.jpg" alt="collection">
-      <div class="collection-content">
-        <h2 class="section-title">Nova coleção</h2>
-        <p>#35 ITEMS</p>
-        <h4>Disponivel no estoque</h4>
-        <button class="btn">COMPRE AGORA</button>
-      </div>
-    </section>
+        </div>
+      
+      </section>
+    </header>
 
     <section class="section-container sale-container">
       <h2 class="section-title">On Sale</h2>
@@ -112,6 +107,19 @@
       </div>
     </section>
 
+    <header>
+    <div class="section-container header-container">
+      <div class="header-content">
+        <p>55% DE DESCONTO EXTRA NA PROMOÇÃO DE PRIMAVERA</p>
+        <h1>Descubra e compre <br>A Tendência 2023</h1>
+        <button class="btn">COMPRE AGORA</button>
+      </div>
+      <div class="header-image">
+        <img src="assets/header.png" alt="header">
+      </div>
+    </div>
+    </header>
+
     <section class="section-container musthave-container">
       <h2 class="section-title">Estilos</h2>
       <div class="musthave-nav">
@@ -129,68 +137,78 @@
         </div>
       </div>
 
-      <div class="musthave-grid">
+      <h3 class="title-model">TÊNIS</h3>
 
-        <div class="musthave-card" id="tennis">
+      <div class="musthave-grid">
+        <div class="musthave-card">
           <img src="assets/musthave-1.png" alt="must have">
-          <h4>TÊNIS NIKE REACT INFINITY RUN FLYKNIT 3 MASCULINO</h4>
-          <p><del>De: R$ 1.099,90</del><br>Por: R$ 749,90 (32% de desconto)</p>
+          <h4>TÊNIS NIKE REACT INFINITY RUN FLYKNIT 3</h4>
+          <p><del>De: R$ 1.099,90</del><br>Por: R$ 749,90</p>
           <button type="button" class="btn btn-dark" onclick="buyItemOne()">COMPRAR</button>
         </div>
 
         <div class="musthave-card">
           <img src="assets/musthave-2.png" alt="must have">
           <h4>TÊNIS NIKE ZOOM FLY 4 FEMININO</h4>
-          <p><del>De: R$ 1.099,90</del><br>Por: R$ 659,94 (40% de desconto)</p>
+          <p><del>De: R$ 1.099,90</del><br>Por: R$ 659,94</p>
           <button type="button" class="btn btn-dark" onclick="buyItemTwo()">COMPRAR</button>
         </div>
 
         <div class="musthave-card">
           <img src="assets/musthave-3.png" alt="must have">
           <h4>TÊNIS NIKE AIR ZOOM PEGASUS FEMININO</h4>
-          <p><del>De: R$ 899,90</del><br>Por: R$ 629,90 (30% de desconto)</p>
+          <p><del>De: R$ 899,90</del><br>Por: R$ 629,90</p>
           <button type="button" class="btn btn-dark" onclick="buyItemThree()">COMPRAR</button>
         </div>
 
         <div class="musthave-card">
           <img src="assets/musthave-4.png" alt="must have">
-          <h4>TÊNIS NIKE AIR ZOOM PEGASUS 39 FLYEASE MASCULINO</h4>
-          <p><del>De: R$ 899,90</del><br>Por: R$ 584,93 (35% de desconto)</p>
+          <h4>TÊNIS NIKE AIR ZOOM PEGASUS 39 FLYEASE</h4>
+          <p><del>De: R$ 899,90</del><br>Por: R$ 584,93</p>
           <button type="button" class="btn btn-dark" onclick="buyItemFour()">COMPRAR</button>
         </div>
+      </div>
 
+      <h3 class="title-model">SOCIAL</h3>
+
+      <div class="musthave-grid">
         <div class="musthave-card" id="social">
           <img src="assets/musthave-5.png" alt="must have">
-          <h4>SAPATO SOCIAL COM ALTURA AIR VINITTI EM COURO PRETO - FORRO DE COURO</h4>
-          <p>Por: R$ 319,99</p>
+          <h4>SAPATO SOCIAL COM ALTURA AIR VINITTI EM COURO PRETO</h4>
+          <p><del>De: R$ 899,90</del><br>Por: R$ 319,99</p>
           <button type="button" class="btn btn-dark" onclick="buyItemFive()">COMPRAR</button>
         </div>
 
         <div class="musthave-card">
           <img src="assets/musthave-6.png" alt="must have">
-          <h4>SAPATO FEMININO SALTO MÉDIO MODARE</h4>
-          <p>Por: R$ 149,90</p>
+          <h4>SAPATO FEMININO SALTO MÉDIO MODARE BEGE</h4>
+          <p><del>De: R$ 899,90</del><br>Por: R$ 149,90</p>
           <button type="button" class="btn btn-dark" onclick="buyItemSix()">COMPRAR</button>
         </div>
 
         <div class="musthave-card">
           <img src="assets/musthave-7.png" alt="must have">
           <h4>SAPATO SOCIAL AIR FILLIPO EM COURO PRETO</h4>
-          <p><del>De: R$ 479,99</del><br>Por: R$ 309,99 (20% de desconto)</p>
+          <p><del>De: R$ 479,99</del><br>Por: R$ 309,99</p>
           <button type="button" class="btn btn-dark" onclick="buyItemSeven()">COMPRAR</button>
         </div>
 
         <div class="musthave-card">
           <img src="assets/musthave-8.png" alt="must have">
           <h4>SAPATO SCARPIN VIZZANO RECORTES VAZADO FEMININO</h4>
-          <p><del>De: R$ 209,99</del><br>Por: R$ 158,90 (10% de desconto)</p>
+          <p><del>De: R$ 209,99</del><br>Por: R$ 158,90</p>
           <button type="button" class="btn btn-dark" onclick="buyItemEight()">COMPRAR</button>
         </div>
+      </div>
 
+
+      <h3 class="title-model">SANDALIAS</h3>
+
+      <div class="musthave-grid">
         <div class="musthave-card">
           <img src="assets/musthave-9.png" alt="must have">
           <h4>CHINELO NIKE VICTORI SLIDE MASCULINO</h4>
-          <p><del>De:R$ 199,99</del><br>Por: R$ 109,99 (8% de desconto)</p>
+          <p><del>De:R$ 199,99</del><br>Por: R$ 109,99</p>
           <button type="button" class="btn btn-dark" onclick="buyItemNine()">COMPRAR</button>
         </div>
 
@@ -214,29 +232,29 @@
           <p><del>R$45.00</del> R$75.00</p>
           <button type="button" class="btn btn-dark" onclick="buyItemtwelve()">COMPRAR</button>
         </div>
-
       </div>
+
     </section>
 
 
     <section class="section-container brands-container">
       <div class="brand-image">
-        <img src="assets/brand-1.png" alt="brand">
+        <a href="https://www.adidas.com.br/" target="_blank"><img src="assets/brand-1.png" alt="brand"></a>    
       </div>
       <div class="brand-image">
-        <img src="assets/brand-2.png" alt="brand">
+        <a href="https://www.nike.com.br/" target="_blank"><img src="assets/brand-2.png" alt="brand"></a>    
       </div>
       <div class="brand-image">
-        <img src="assets/brand-3.png" alt="brand">
+        <a href="https://www.reebok.com.br/" target="_blank"><img src="assets/brand-3.png" alt="brand"></a>    
       </div>
       <div class="brand-image">
-        <img src="assets/brand-4.png" alt="brand">
+        <a href="https://www.thenorthface.com.br/" target="_blank"><img src="assets/brand-4.png" alt="brand"></a>    
       </div>
       <div class="brand-image">
-        <img src="assets/brand-5.png" alt="brand">
+        <a href="https://www.newbalance.com.br/" target="_blank"><img src="assets/brand-5.png" alt="brand"></a>    
       </div>
       <div class="brand-image">
-        <img src="assets/brand-6.png" alt="brand">
+        <a href="https://br.puma.com/" target="_blank"><img src="assets/brand-6.png" alt="brand"></a>    
       </div>
     </section>
 
@@ -246,7 +264,7 @@
       <div class="footer-col">
         <h4 class="footer-heading">CONTATO</h4>
         <p>
-          <i class="ri-map-pin-2-fill"></i> FEPI - Varinha 158, Bloco 900
+          <i class="ri-map-pin-2-fill"></i> FEPI - Varginha 158, Bloco 900
         </p>
         <p><i class="ri-mail-fill"></i> support@ngrm.com</p>
         <p><i class="ri-phone-fill"></i> +55 35 99107-0935</p>
