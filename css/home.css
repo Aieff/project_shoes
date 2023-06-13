@@ -215,18 +215,19 @@ header {
   color: var(--white);
 }
 
-.sale-grid {
-  display: grid;
-  height: 30rem;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
 .sale-card {
+  box-shadow: 0 0 15px #6b7280;
+  width: 30%;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  height: 77%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.sale-card:hover {
+  transition: 0.4s;
+  width: 35%;
 }
 
 .sale-content {
@@ -256,26 +257,6 @@ header {
   margin-top: 14rem;
   color: var(--white);
   background-color: var(--text-dark);
-}
-
-.sale-card::before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  top: -100%;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.5s;
-}
-
-.sale-card:hover::before {
-  top: 0;
-}
-
-.sale-card:hover .sale-btn {
-  color: var(--text-dark);
-  background-color: var(--white);
 }
 
 .musthave-nav {
@@ -584,10 +565,6 @@ header {
     margin-top: 5rem;
   }
 
-  .sale-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .musthave-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -625,10 +602,6 @@ header {
 
   .header-image {
     display: none;
-  }
-
-  .sale-grid {
-    grid-template-columns: repeat(1, 1fr);
   }
 
   .musthave-grid {
